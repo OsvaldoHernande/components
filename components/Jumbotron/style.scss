@@ -1,0 +1,48 @@
+$herobar-bg-color: #004E64;
+$herobar-font-color: white; 
+
+.herobar {
+    background-color: $herobar-bg-color;
+    color: $herobar-font-color;
+    height: 50vh;
+    text-align: center;
+}
+
+.herobar h1 {
+    font-size: 40px;
+    line-height: 110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.herobar p {
+    color: $herobar-font-color;
+    
+}
+
+.button {
+    background-color: lightblue;
+    line-height: 30px;
+    margin-top: 2%;
+    border-radius: 5px;
+    border: 2px solid lightblue;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 370px) {
+    .herobar {
+        background-color: $herobar-bg-color;
+        color: $herobar-font-color;
+        height: 100vh;
+        text-align: center;
+    }
+    .herobar h1 {
+        font-size: 40px;
+        line-height: 110px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+}

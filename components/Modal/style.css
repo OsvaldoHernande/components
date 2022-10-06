@@ -1,0 +1,39 @@
+.modal {
+  background-color: #00A5CF;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  border-radius: 5px;
+  width: 80%;
+  height: 20vh;
+  display: none;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #858585;
+  color: #fffcfc;
+  border: none;
+  height: 35px;
+  width: 75px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #004369;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.off {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .modal {
+    height: 350px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,43 @@
+.herobar {
+  background-color: #004E64;
+  color: white;
+  height: 50vh;
+  text-align: center;
+}
+
+.herobar h1 {
+  font-size: 40px;
+  line-height: 110px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.herobar p {
+  color: white;
+}
+
+.button {
+  background-color: lightblue;
+  line-height: 30px;
+  margin-top: 2%;
+  border-radius: 5px;
+  border: 2px solid lightblue;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 370px) {
+  .herobar {
+    background-color: #004E64;
+    color: white;
+    height: 100vh;
+    text-align: center;
+  }
+  .herobar h1 {
+    font-size: 40px;
+    line-height: 110px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+}
+/*# sourceMappingURL=style.css.map */
