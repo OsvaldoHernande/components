@@ -1,0 +1,73 @@
+.form  {
+    background-color: #cfeff7;
+    width: 20%;
+    position: relative;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-lab {
+    font-size: 32px;
+}
+
+.button {
+    cursor: pointer;
+  background-color: #858585;
+  color: #fffcfc;
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+  top: 10px;
+  position: relative;
+}
+
+.form-label {
+    line-height: 30px;
+    width: 250px;
+}
+
+.Modal {
+    background-color: #4c5355;
+    width: 20%;
+    position: relative;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1800px) {
+    .form  {
+        background-color: #004E64;
+        width: 33vh;
+        position: relative;
+        height: 45vh;
+    }
+
+    .Modal {
+        background-color: #00A5CF;
+        width: 33vh;
+        position: relative;
+        height: 55vh;
+    }
+}
+
+
+
