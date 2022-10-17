@@ -9,6 +9,10 @@
     display: none;
 }
 
+.text {
+    padding: 10px;
+}
+
 
 .button {
     cursor: pointer;
@@ -17,10 +21,9 @@
     border: none;
     height: 35px;
     width:  75px;
-    border-radius: 5px;
-
-  
+    border-radius: 5px; 
 }
+
 
 
 .button:hover {

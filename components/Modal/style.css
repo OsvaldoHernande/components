@@ -11,6 +11,10 @@
   display: none;
 }
 
+.text {
+  padding: 10px;
+}
+
 .button {
   cursor: pointer;
   background-color: #858585;
